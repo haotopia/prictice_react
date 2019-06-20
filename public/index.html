@@ -20,8 +20,12 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      body#wrap{background:-webkit-linear-gradient(left,rgb(220,190,220),rgb(180,220,220))}
+    </style>
   </head>
-  <body>
+  <body id="wrap">
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -34,5 +38,59 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!--<script>
+      (function() {
+        var oWrap = document.getElementById('wrap');
+        const max = 220;
+        const min = 180;
+        var color = [max, min, min];
+        var length = color.length;
+        var colorL, colorR
+        setInterval(change, 1000);
+
+        function change() {
+          for (var i = 1; i < length; i++) {
+            i %= length;
+            var arrX = (i + 1) % length;
+            var arrY = (i + 2) % length;
+            if (color[i] == max && color[arrX] == min) {
+              color[arrY]++;
+            }
+            if (color[i] == min && color[arrX] == max) {
+              color[arrY]&#45;&#45;;
+            }
+            colorL = '#' + convert(color[0]) + '+'
+            convert(color[1]) + '' + convert(color[2]) + '';
+            colorR = '#' + convert(color[2]) + '+'
+            convert(color[0]) + '' + convert(color[1]) + '';
+
+          }
+
+          gColor(colorL, colorR);
+        }
+
+        function convert(sRgb) {
+          var sRgb = sRgb;
+          var sHex = sRgb.toString(16);
+          sHex = sHex.length < 2 ? '0' + sHex : sHex
+          return sHex;
+        }
+
+        function gColor(colorL, colorR) {
+
+          if (navigator.userAgent.match(/Trident/i) && navigator.userAgent.match(/MSIE [7|8|9].0/i)) {
+            oWrap.style.filter = "progid:DXImageTransform.Microsoft.gradient(startColorstr=" + colorL + ",endColorstr=" + colorR +
+                    ",GradientType=0)";
+
+          } else {
+
+            oWrap.style.background = "-webkit-linear-gradient(left," + colorL + "," + colorR + ")";
+            oWrap.style.background = "-ms-linear-gradient(left," + colorL + "," + colorR + ")";
+
+          }
+        }
+      })();
+    </script>-->
   </body>
+
 </html>
