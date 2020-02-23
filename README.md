@@ -114,7 +114,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 图1-1项目系统流程图
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/01.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/01.png)
 
 #### 1.2.2 对现有系统的其他说明
 
@@ -187,15 +187,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ​    
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/02.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/02.png)
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/03.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/03.png)
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/04.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/04.png)
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/05.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/05.png)
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/06.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/06.png)
 
 ### 1.9 数据描述 
 
@@ -296,17 +296,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### 2.1 软件模块结构图
 
- ![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/07.png)
+ ![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/07.png)
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/08.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/08.png)
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/09.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/09.png)
 
 ### 2.2 文件结构和全局数据
 
 ER图：
 
-![img](https://github.com/haotopia/prictice_react/tree/master/%E8%BD%AF%E5%B7%A5/10.png)
+![img](https://github.com/haotopia/prictice_react/blob/master/%E8%BD%AF%E5%B7%A5/10.png)
 
  
 
